@@ -5,8 +5,11 @@ Run : go run config.go controller.go main.go migrate.go model.go
 
 API Endpoints : 
 1. Item: 
+
     a. GET http://127.0.0.1:8080/api/v1/items
+    
     b. GET http://127.0.0.1:8080/api/v1/items/:id
+    
     c. POST http://127.0.0.1:8080/api/v1/items
     d. PUT http://127.0.0.1:8080/api/v1/items/:id
     e. DELETE http://127.0.0.1:8080/api/v1/items/:id
