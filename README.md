@@ -6,60 +6,59 @@ Run : go run config.go controller.go main.go migrate.go model.go
 API Endpoints : 
 1. Item: 
 
-    a. GET http://127.0.0.1:8080/api/v1/items
+    a. GET http://localhost:8080/api/v1/items
     
-    b. GET http://127.0.0.1:8080/api/v1/items/:id
+    b. GET http://localhost:8080/api/v1/items/:id
     
-    c. POST http://127.0.0.1:8080/api/v1/items
+    c. POST http://localhost:8080/api/v1/items
     
-    d. PUT http://127.0.0.1:8080/api/v1/items/:id
+    d. PUT http://localhost:8080/api/v1/items/:id
     
-    e. DELETE http://127.0.0.1:8080/api/v1/items/:id
+    e. DELETE http://localhost:8080/api/v1/items/:id
     
 2. Item In: 
 
-    a. GET http://127.0.0.1:8080/api/v1/itemsin
+    a. GET http://localhost:8080/api/v1/itemsin
     
-    b. GET http://127.0.0.1:8080/api/v1/itemsin/:id
+    b. GET http://localhost:8080/api/v1/itemsin/:id
     
-    c. POST http://127.0.0.1:8080/api/v1/itemsin
+    c. POST http://localhost:8080/api/v1/itemsin
     
-    d. PUT http://127.0.0.1:8080/api/v1/itemsin/:id
+    d. PUT http://localhost:8080/api/v1/itemsin/:id
     
-    e. DELETE http://127.0.0.1:8080/api/v1/itemsin/:id
+    e. DELETE http://localhost:8080/api/v1/itemsin/:id
     
 3. Item Out:
 
-    a. GET http://127.0.0.1:8080/api/v1/itemsout
+    a. GET http://localhost:8080/api/v1/itemsout
     
-    b. GET http://127.0.0.1:8080/api/v1/itemsout/:id
+    b. GET http://localhost:8080/api/v1/itemsout/:id
     
-    c. POST http://127.0.0.1:8080/api/v1/itemsout
+    c. POST http://localhost:8080/api/v1/itemsout
     
-    d. PUT http://127.0.0.1:8080/api/v1/itemsout/:id
+    d. PUT http://localhost:8080/api/v1/itemsout/:id
     
-    e. DELETE http://127.0.0.1:8080/api/v1/itemsout/:id
+    e. DELETE http://localhost:8080/api/v1/itemsout/:id
     
 4. Report:
 
-    a. GET http://127.0.0.1:8080/api/v1/itemsreport
+    a. GET http://localhost:8080/api/v1/itemsreport
     
-    b. GET http://127.0.0.1:8080/api/v1/salesreport
+    b. GET http://localhost:8080/api/v1/salesreport
     
 5. Export to CSV:
 
-    a. GET http://127.0.0.1:8080/api/v1/items
+    a. GET http://localhost:8080/api/v1/items
     
-    b. GET http://127.0.0.1:8080/api/v1/csvitemsin
+    b. GET http://localhost:8080/api/v1/csvitemsin
     
-    c. GET http://127.0.0.1:8080/api/v1/csvitemsout
+    c. GET http://localhost:8080/api/v1/csvitemsout
     
-    d. GET http://127.0.0.1:8080/api/v1/csvitemsreport
+    d. GET http://localhost:8080/api/v1/csvitemsreport
     
-    e. GET http://127.0.0.1:8080/api/v1/csvsalesreport
+    e. GET http://localhost:8080/api/v1/csvsalesreport
     
 Features : 
 Mandatory: The API must have endpoints that must be able to replace the spreadsheet above.
 
 Mandatory: Export data report in CSV format
-
