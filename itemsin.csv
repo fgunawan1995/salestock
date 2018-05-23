@@ -1,0 +1,4 @@
+Waktu,SKU,Nama Barang,Jumlah Pemesanan,Jumlah Diterima,Harga Beli,Total,Nomor Kwitansi,Catatan
+tes,15,tes1,20,20,5000,100000,tes,15
+tes2,15,tes1,10,10,5000,50000,tes,15
+2018/01/02 11:20,1A,tes2,10,10,100,1000,111,diterima
